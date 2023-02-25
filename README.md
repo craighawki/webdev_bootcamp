@@ -1,1 +1,0 @@
-This is my README file actually my first file and it looks good so far. And there aint ho html or css or js.
