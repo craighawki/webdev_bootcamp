@@ -1,3 +1,4 @@
 {
-    "workbench.colorTheme": "Material Theme Palenight High Contrast"
+    "workbench.colorTheme": "Material Theme Palenight High Contrast",
+    "editor.formatOnSave": true
 }
