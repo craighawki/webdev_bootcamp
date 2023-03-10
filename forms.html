@@ -11,13 +11,29 @@
 <body>
     <h1>My Forms Demo</h1>
 
-    <form action="/tacos"></form>
-    <input type="text" placeholder="username">
-    <input type="password" placeholder="password">
-    <input type="color">
-    <input type="number" placeholder="enter a number">
-    <input type="date">
-
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter a Username:</label>
+            <input id="username" type="text" placeholder="username">
+        </p>
+        <p>
+            <label for="password">Enter a Password</label>
+            <input id="password" type="password" placeholder="password">
+        </p>
+        <p>
+            <label for="color">Select a color</label>
+            <input type="color" id="color">
+        </p>
+        <p>
+            <label for="number">Enter a number</label>
+            <input id="number" type="number" placeholder="enter a number">
+        </p>
+        <p>
+            <label for="date">Select a date</label>
+            <input type="date" id="date">
+        </p>
+        <button>Submit</button>
+    </form>
 </body>
 
 </html>
