@@ -29,11 +29,19 @@
             <input id="number" type="number" placeholder="enter a number">
         </p>
         <p>
+            <!-- This button doesn't submit the form b/c of the "type" attribute -->
+            <button type="button">Regular button (won't submit)</button>
+            <!-- This button submits the form! -->
             <label for="date">Select a date</label>
             <input type="date" id="date">
         </p>
-        <button>Submit</button>
+        <!-- This button submits the form  -->
+        <button>Submit!!!</button>
+        <!-- <button type="button">Please do not submit this form</button> -->
+        <!-- This button submits the form! -->
+        <input type="submit" value="click me">
     </form>
+    <button>Not inside the form</button>
 </body>
 
 </html>
