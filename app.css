@@ -1,35 +1,18 @@
 section {
-    background-color: #6d6875;
-    width: 800px;
-    height: 800px;
+    width: 500px;
+    height: 500px;
+    background-color: magenta;
 }
 
-div {
-    background-color: #e5989b;
-    width: 70%;
-    height: 20%;
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: #7c131310;
 }
 
-h2 {
-    font-size: 5em;
-    margin-left: 1em;
-}
-
-h3 {
-    font-size: 1.5em;
-}
-
-p {
-    font-size: 1em;
-}
-
-article {
-    font-size: 30px;
-}
-
-button {
-    font-size: 1em;
-    padding: 0 1em;
-    border-radius: 0.5em;
-    background-color: #2a9d8f;
+#opacity {
+    width: 50%;
+    height: 50%;
+    background-color: yellow;
+    opacity: 0.5;
 }
