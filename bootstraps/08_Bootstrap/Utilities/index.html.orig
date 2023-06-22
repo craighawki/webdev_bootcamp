@@ -3,22 +3,20 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Icons</title>
+    <title>Bootstrap Utilities</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 </head>
 
 <body>
     <div class="container">
-        <h1 class="display-1">Utilities</h1>
+        <h1 class="display-1 mb-5">Utilities</h1>
         <div class="row">
             <div class="col-md-4 border rounded border-success shadow">
-                <button class="btn btn-info shadow-sm">Shadow</button>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nesciunt veniam eius ad, dolorum
-                reiciendis obcaecati inventore. Inventore vero sit dolorum nemo quia enim culpa itaque provident.
-                Corrupti, illum placeat.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. A, amet! Cupiditate quisquam fuga, dolores
+                quasi laborum beatae maiores hic numquam sint quae optio autem magni provident ratione earum?
+                Aspernatur, ullam!
             </div>
         </div>
         <div>
@@ -29,7 +27,7 @@
             <button class="btn btn-primary p-4">Padding 4</button>
             <button class="btn btn-primary p-5">Padding 5</button>
         </div>
-        <div>
+        <div class="my-5">
             <button class="btn btn-primary p-0 pt-5">Padding Top</button>
             <button class="btn btn-primary p-0 pl-5">Padding Left</button>
             <button class="btn btn-primary p-0 pb-5">Padding Bottom</button>
@@ -37,9 +35,9 @@
             <button class="btn btn-primary p-0 px-5">Padding X</button>
             <button class="btn btn-primary p-0 py-5">Padding Y</button>
         </div>
-        <button class="btn btn-danger">I Change</button>
-    </div>
 
+        <button class="btn btn-danger p-0 p-sm-1 p-md-2 p-lg-3 p-xl-5">I CHANGE!</button>
+    </div>
 
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
