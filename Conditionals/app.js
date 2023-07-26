@@ -22,14 +22,44 @@
 // }
 
 
-const age = 65;
+// const age = 65;
 
-if (age < 5) {
-    console.log("You're a baby,so you can get in for free!")
-} else if (age < 10) {
-    console.log("You are a child. You pay $10.00")
-} else if (age < 65) {
-    console.log("You are an adult, so you pay $20.00")
+// if (age < 5) {
+//     console.log("You're a baby,so you can get in for free!")
+// } else if (age < 10) {
+//     console.log("You are a child. You pay $10.00")
+// } else if (age < 65) {
+//     console.log("You are an adult, so you pay $20.00")
+// } else {
+//     console.log("You are a senior, so you pay $10.00")
+// }
+
+
+
+
+
+
+
+
+
+const password = prompt("please enter a new password");
+
+// Password needs to be 6+ characters
+if (password.length >= 6) {
+    if (password.indexOf(' ') === -1) {
+        console.log("Valid password!")
+    } else {
+        console.log("Password cannot contain spaces!")
+    }
 } else {
-    console.log("You are a senior, so you pay $10.00")
+    console.log("Password too short! Must be 6+ characters")
 }
+// Password cannot includes spaces
+
+
+
+
+
+
+
+
