@@ -20,3 +20,17 @@
 for (let i = 100; i >= 0; i -= 10) {
     console.log(i);
 }
+
+// DO NOT RUN TIS INFINITE LOOP!!
+
+// for (let i = 20; i >= 0; i++) 
+//   console.log(i);
+
+// DO NOT RUN THIS INFINITE LOOP!
+
+for (let i = 1; i <= 10; i++) {
+    console.log(`i is: ${i}`)
+    for (let j = 1; j <= 4; j++) {
+        console.log(`     j is: ${j}`)
+    }
+}
