@@ -31,7 +31,7 @@ while (!maximum) {
 const targetNum = Math.floor(Math.random() * maximum) + 1;
 
 
-let guess = parseInt(prompt("Enter your first guess!"));
+let guess = prompt("Enter your first guess!");
 let attempts = 1;
 
 while (parseInt(guess) !== targetNum) {
