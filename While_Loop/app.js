@@ -40,13 +40,16 @@ while (parseInt(guess) !== targetNum) {
     attempts++;
     if (guess > targetNum) {
         guess = prompt("Too high! Enter a new guess:");
-    } else {
+    } else if (guess < targetNum) {
         guess = prompt("Too low! Enter a new guess:");
+    } else {
+        guess = prompt("Too low! Please enter a number  or 'q' to quit.")
     }
+
 }
 if (guess === 'q') {
     console.log(`You quit the game after ${attempts} guesses.`)
-} else if (guess < targetNum) {
+} else {
     console.log("Congrats! You win")
-    console.log(`You got it! It took you ${attempts} guesses`);
+    console.log(`You got it! -- ${guess}. It took you ${attempts} guesses`);
 }
