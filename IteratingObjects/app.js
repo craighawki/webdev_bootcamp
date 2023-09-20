@@ -8,7 +8,8 @@ const testScores = {
     nadia: 83,
     elvira: 97,
     diedre: 81,
-    vonnie: 60
+    vonnie: 60,
+    hilda: 80
 }
 // ===================================
 // USING FOR...IN TO ITERATE AN OBJECT
