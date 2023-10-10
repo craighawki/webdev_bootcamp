@@ -3,7 +3,13 @@ function singSong() {
     console.log("RE");
     console.log("MI");
 }
-singSong()
-singSong()
-singSong()
-singSong()
+
+function greet(firstName, lastName) {
+    console.log(`Hello ${firstName} ${lastName[0]}, how goes it?`);
+}
+
+
+// singSong()
+// singSong()
+// singSong()
+// singSong()
