@@ -15,8 +15,21 @@
 
 // birdWatch();
 
-let radius = 8;
-if (radius > 0) {
-    const PI = 3.14159;
-    let msg = 'HIII!'
+// let radius = 8;
+// if (radius > 0) {
+//     const PI = 3.14159;
+//     let msg = 'HIII!'
+// }
+
+function bankRobbery() {
+    const heroes = ['Spiderman', 'Wolverine', 'Black Panther', 'Batwoman'];
+    function cryForHelp() {
+        function inner() {
+            for (let hero of heroes) {
+                console.log(`PLEASE HELP US, ${hero.toUpperCase()} `);
+            }
+        }
+        inner();
+    }
+    cryForHelp();
 }
