@@ -14,7 +14,9 @@
 //     console.log(roll);
 // }
 
+
 // callTwice(rollDie)
+
 
 // function makeMysteryFunc() {
 //     const rand = Math.random();
@@ -36,3 +38,32 @@
 // }
 
 
+function makeBetweenFunc(min, max) {
+    return function (num) {
+        return num >= min && num <= max;
+    }
+}
+
+// function isBetween(num) {
+//     return num >= 50 && num <= 100
+// }
+// function isBetween2(num) {
+//     return num >= 1 && num <= 10
+// }
+
+
+Running
+makeBetweenFunc(100, 200)
+ƒ(num) {
+    return num >= min && num <= max;
+}
+const isChild = makeBetweenFunc(0, 18)
+undefined
+isChild(40)
+false
+isChild(13)
+true
+const isAdult = makeBetweenFunc(19, 60)
+undefined
+isAdult(40)
+true
