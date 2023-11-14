@@ -15,3 +15,21 @@ const myMath = {
         return num ** 3;
     }
 }
+
+const square = {
+    area: function (side) {
+        return side * side;
+    },
+    perimeter: function (side) {
+        return side * 4;
+    }
+}
+
+const cat = {
+    name: 'Blue Steele',
+    color: 'grey',
+    breed: 'scottish fold',
+    meow() {
+        console.log(`${this.name} says MEOWWW`);
+    }
+}
