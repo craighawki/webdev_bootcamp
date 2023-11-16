@@ -52,18 +52,18 @@ function makeBetweenFunc(min, max) {
 // }
 
 
-Running
-makeBetweenFunc(100, 200)
-ƒ(num) {
-    return num >= min && num <= max;
-}
-const isChild = makeBetweenFunc(0, 18)
-undefined
-isChild(40)
-false
-isChild(13)
-true
-const isAdult = makeBetweenFunc(19, 60)
-undefined
-isAdult(40)
-true
+// Running
+// makeBetweenFunc(100, 200)
+// ƒ(num) {
+//     return num >= min && num <= max;
+// }
+// const isChild = makeBetweenFunc(0, 18)
+// undefined
+// isChild(40)
+// false
+// isChild(13)
+// true
+// const isAdult = makeBetweenFunc(19, 60)
+// undefined
+// isAdult(40)
+// true
