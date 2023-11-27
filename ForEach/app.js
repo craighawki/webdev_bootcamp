@@ -1,4 +1,8 @@
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20];
+
+const doubles = numbers.map(function (num) {
+    return num * 2;
+})
 
 // function print(element) {
 //     console.log(element);
@@ -38,11 +42,15 @@ const movies = [
         score: 80
     },
     {
-        title: 'Alian',
+        title: 'Alien',
         score: 82
     }
 ]
 
-movies.forEach(function (movie) {
-    console.log(`${movie.title} - ${movie.score}/100`);
+const films = movies.map(function (movie) {
+    return movie.title.toUpperCase();
 })
+
+// movies.forEach(function (movie) {
+//     console.log(`${movie.title} - ${movie.score}/100`);
+// })
