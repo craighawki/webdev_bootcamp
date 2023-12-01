@@ -12,10 +12,10 @@
 // const meow2 = cat.meow;
 
 const hen = {
-    name: 'Helen',
+    name: "Helen",
     eggCount: 0,
     layAnEgg() {
         this.eggCount += 1;
-        return 'EGG';
+        return "EGG";
     }
 }
