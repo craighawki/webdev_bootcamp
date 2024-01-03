@@ -71,7 +71,7 @@ const movies = [
 //     return movie.score > 80;
 // })
 
-const goodMovies = movies.filter(m => m.score > 80).map(m => m.title);
+const goodMovies = movies.filter(m => m.score > 40).map(m => (m.title + " is the title of this movie").toUpperCase());
 const goodTitles = goodMovies.map(m => m.title + ' ' + m.Scaryness);
 const scary = movies.map(m => m.score * 55);
 const scaryMovies = scary.map(m => m.toUpperCase);
