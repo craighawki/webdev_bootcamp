@@ -80,3 +80,5 @@ const goodUpper = movies.filter(m => m.score > 80).map(m => m.title.toUpperCase(
 const badMovies = movies.filter(m => m.score < 70);
 
 const recentMovies = movies.filter(m => m.year > 2000);
+
+movies.some(movie => movie.year > 2000);
