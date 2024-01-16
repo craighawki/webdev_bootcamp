@@ -1,5 +1,7 @@
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
 
+numbers.every(num => num >= 15);
+
 const odds = numbers.filter(n => {
     return n % 2 === 1;
 })
@@ -15,7 +17,7 @@ numbers.filter(n => {
 const movies = [
     {
         title: 'Amadeus',
-        score: 80,
+        score: 98,
         year: 1984,
         Scaryness: 10
     },
@@ -63,6 +65,17 @@ const movies = [
     }
 ]
 
+const highestRated = movies.reduce((bestMovie, currMovie) => {
+    if (currMovie.score > bestMovie.score) {
+        return currMovie;
+    }
+    return bestMovie;
+})
+
+const evens = [2, 4, 6, 8];
+evens.reduce((sum, num) => sum + num, 1000);
+
+
 // const films = movies.map(function (movie) {
 //     return movie.title.toUpperCase();
 // })
@@ -81,4 +94,4 @@ const badMovies = movies.filter(m => m.score < 70);
 
 const recentMovies = movies.filter(m => m.year > 2000);
 
-movies.some(movie => movie.year > 2000);
+const someMovies = movies.some(movie => movie.year > 2000);
